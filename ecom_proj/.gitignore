@@ -1,0 +1,5 @@
+__pycache__
+cart_app/.gitignore
+ecom_proj/.gitignore
+item_app/.gitignore
+user_app/.gitignore
