@@ -61,10 +61,10 @@ in order to pass the test. Pay attention to order and formatting of your data.
 """
 
 
-class Test_increase_cart_item(APITestCase):
+class Test_item_remove(APITestCase):
     fixtures = ["items.json"]
 
-    def test_011_increase_cart_item(self):
+    def test_14_item_remove(self):
         client = Client()
         sign_up_response = client.post(
             reverse("signup"),
